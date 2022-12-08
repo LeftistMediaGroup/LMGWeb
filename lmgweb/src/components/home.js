@@ -1,7 +1,7 @@
 import React from "react";
 
 
-export default class Home extends React {
+export default class Home extends React.Component {
     constructor(props) {
         super(props)
 
@@ -9,7 +9,7 @@ export default class Home extends React {
             "test": "1"
         }
     };
-    
+
     render() {
         return (
             <>

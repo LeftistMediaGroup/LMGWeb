@@ -3,7 +3,7 @@ import React from "react";
 import Home from "./home.js";
 
 
-export default class Main extends React {
+export default class Main extends React.Component {
     constructor(props) {
         super(props)
 
@@ -11,7 +11,7 @@ export default class Main extends React {
             "test": "1"
         }
     };
-    
+
     render() {
         return (
             <>
