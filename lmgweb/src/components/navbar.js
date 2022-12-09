@@ -6,7 +6,7 @@ import { AppBar, Toolbar, Stack, Button } from "@mui/material";
 export const Navbar = () => {
     return (
         <>
-
+        
         <AppBar position='static'>
             <Toolbar size = 'large' edge = 'start'>
                 <Button color = "inherit">
