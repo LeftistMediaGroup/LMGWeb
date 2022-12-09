@@ -1,11 +1,6 @@
 import React from "react";
-import { Text } from "react";
 
 import { AppBar, Toolbar, Typography, Stack, Button } from "@mui/material";
-
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-
-import Education from "./education.js";
 
 
 export const Navbar = () => {
@@ -15,7 +10,7 @@ export const Navbar = () => {
         <AppBar position='static'>
             <Toolbar size = 'large' edge = 'start'>
                 <Typography variant="h6" sx= {{ flexGrow: 1}}>
-                    Home
+                    Leftist Media Group
                 </Typography>
 
                 <Stack direction = "row" spacing={2}>
