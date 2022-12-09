@@ -3,7 +3,7 @@ import { Text } from "react";
 
 import { AppBar, Toolbar, Typography, Stack, Button } from "@mui/material";
 
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Education from "./education.js";
 
@@ -27,11 +27,11 @@ export const Navbar = () => {
         </AppBar>
         
         <BrowserRouter>
-            <Switch>
+            <Routes>
                 <Route path="/education">
                     <Education />
                 </Route>
-            </Switch>
+            </Routes>
         </BrowserRouter>
         
         </>
