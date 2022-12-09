@@ -38,6 +38,7 @@
   "devDependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
-    "@mui/material": "^5.10.17"
+    "@mui/material": "^5.10.17",
+    "react-router-dom": "^6.4.5"
   }
 }
