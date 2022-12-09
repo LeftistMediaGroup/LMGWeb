@@ -14,7 +14,7 @@ import Education from "./education.js";
 export const Navbar = () => {
     const router = createBrowserRouter([
         {
-          path: "/education",
+          path: "/",
           element: <Education />,
         },
     ]);
