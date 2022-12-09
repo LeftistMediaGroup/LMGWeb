@@ -3,12 +3,15 @@ import { Text } from "react";
 
 import { AppBar, Toolbar, Typography, Stack, Button } from "@mui/material";
 
-import { Link } from "react-router-native";
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
+import Education from "./education.js";
 
 
 export const Navbar = () => {
     return (
+        <>
+
         <AppBar position='static'>
             <Toolbar size = 'large' edge = 'start'>
                 <Typography variant="h6" sx= {{ flexGrow: 1}}>
@@ -17,14 +20,20 @@ export const Navbar = () => {
 
                 <Stack direction = "row" spacing={2}>
                     <Button color = "inherit">
-                        <Link to="/education">
-                            <Text>
-                                Education
-                            </Text>
-                        </Link>
+                        <a href="./education.js"> Education </a> 
                     </Button>
                 </Stack>
             </Toolbar>
         </AppBar>
+        
+        <BrowserRouter>
+            <Switch>
+                <Route path="/education">
+                    <Education />
+                </Route>
+            </Switch>
+        </BrowserRouter>
+        
+        </>
     );
 };
