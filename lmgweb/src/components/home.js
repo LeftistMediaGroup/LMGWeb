@@ -2,6 +2,7 @@ import React from "react";
 
 import Card from '@mui/material/Card';
 
+import Projects from "./projects/projects.js";
 
 export default class Home extends React.Component {
     constructor(props) {
@@ -35,6 +36,10 @@ export default class Home extends React.Component {
                 of projects to be community lead, all focused on a specific avenue of dismantaling Capitalism one brick <br/>
                 at a time. <br/>
                 <br/>
+            </Card>
+
+            <Card variant="outlined">
+                <Projects></Projects>
             </Card>
 
             <Card>
