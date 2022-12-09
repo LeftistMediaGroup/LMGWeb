@@ -26,13 +26,6 @@ export const Navbar = () => {
             </Toolbar>
         </AppBar>
         
-        <BrowserRouter>
-            <Routes>
-                <Route path="/education" element = {<Education />} >
-                </Route>
-            </Routes>
-        </BrowserRouter>
-        
         </>
     );
 };
