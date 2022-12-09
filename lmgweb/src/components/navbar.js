@@ -28,8 +28,7 @@ export const Navbar = () => {
         
         <BrowserRouter>
             <Routes>
-                <Route path="/education">
-                    <Education />
+                <Route path="/education" element = {<Education />} >
                 </Route>
             </Routes>
         </BrowserRouter>
