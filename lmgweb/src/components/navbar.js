@@ -7,7 +7,7 @@ export const Navbar = () => {
     return (
         <>
         
-        <AppBar position='static' style={{ background: '#d50000' }>
+        <AppBar position='static' style={{ background: '#d50000' }}>
             <Toolbar size = 'large' edge = 'start'>
                 <Button color = "inherit">
                     <a href="./home"> Leftist Media Group </a> 
