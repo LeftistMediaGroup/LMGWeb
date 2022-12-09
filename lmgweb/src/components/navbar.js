@@ -1,6 +1,6 @@
 import React from "react";
 
-import { AppBar, Toolbar, Typography, Stack, Button } from "@mui/material";
+import { AppBar, Toolbar, Stack, Button } from "@mui/material";
 
 
 export const Navbar = () => {
@@ -9,9 +9,9 @@ export const Navbar = () => {
 
         <AppBar position='static'>
             <Toolbar size = 'large' edge = 'start'>
-                <Typography variant="h6" sx= {{ flexGrow: 1}}>
-                    Leftist Media Group
-                </Typography>
+                <Button color = "inherit">
+                    <a href="./home"> Leftist Media Group </a> 
+                </Button>
 
                 <Stack direction = "row" spacing={2}>
                     <Button color = "inherit">
