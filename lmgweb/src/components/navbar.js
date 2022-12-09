@@ -20,7 +20,7 @@ export const Navbar = () => {
 
                 <Stack direction = "row" spacing={2}>
                     <Button color = "inherit">
-                        <a href="./education.js"> Education </a> 
+                        <a href="./education"> Education </a> 
                     </Button>
                 </Stack>
             </Toolbar>
