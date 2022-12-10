@@ -15,7 +15,7 @@ const darkTheme = createTheme({
     mode: 'dark',
   },
   
-  MUICard: {
+  card: {
     p: 2,
     m: 2
   }
