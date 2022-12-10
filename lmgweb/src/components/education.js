@@ -22,8 +22,22 @@ export default class Education extends React.Component {
             <Paper elevation = {1} variant = "outlined" sx = {{p: 1, m: 1}}>
 
                 <Card variant = "outlined" sx = {{p: 1, m: 1}}>
-
                     <h1> Education </h1>           
+                </Card>
+
+                <Card variant = "outlined" sx={{ flexGrow: 1, p: 1, m: 1 }}>
+                    <h2> Topics to explore </h2>
+
+                    <p>
+                        -Marxism <br/>
+                        -Anarchism <br/>
+                        -Communism <br/>
+                        -ACAB <br/>
+                        -Revolution <br/>
+                        -Workers Rights <br/>
+                        -BLM <br/>
+                        -Revolutionary Thinking <br/>
+                    </p>
                 </Card>
 
                 <Capitalism></Capitalism>
