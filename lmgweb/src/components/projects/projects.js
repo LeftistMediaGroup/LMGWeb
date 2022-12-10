@@ -1,8 +1,6 @@
 import React from "react";
 
 import Card from '@mui/material/Card';
-import { Box } from "@mui/system";
-
 export default class Projects extends React.Component {
     constructor(props) {
         super(props)
