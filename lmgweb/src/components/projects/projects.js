@@ -17,7 +17,7 @@ export default class Projects extends React.Component {
             <>
 
             <Card variant = "outlined" sx = {{p: 1, m: 1}}>
-                <Box>
+                <Box sx = {{ p: 1, m: 1}}>
                 
                     <Card sx = {{p: 1, m: 1}}>
                         <h1> Projects </h1>           
