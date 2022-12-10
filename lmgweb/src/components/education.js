@@ -29,6 +29,7 @@ export default class Education extends React.Component {
                     <h2> Topics to explore </h2>
 
                     <p>
+                        -What is Capitalism? <br/>
                         -Marxism <br/>
                         -Anarchism <br/>
                         -Communism <br/>
