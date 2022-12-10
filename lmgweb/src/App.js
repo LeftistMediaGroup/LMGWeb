@@ -16,9 +16,9 @@ const darkTheme = createTheme({
   },
   overrides: {
     MUIBox: {
-      root: {
-        margin: "10px",
-        padding: "10px"
+      padding: {
+        paddingTop: "30px",
+        paddingBottom: "30px"
       }
     }
   }
