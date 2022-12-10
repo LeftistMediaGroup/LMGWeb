@@ -14,11 +14,10 @@ const darkTheme = createTheme({
   palette: {
     mode: 'dark',
   },
-  overrides: {
-    MUIBox: {
-      p: 2,
-      m: 2
-    }
+  
+  MUIBox: {
+    p: 2,
+    m: 2
   }
 });
 
