@@ -18,7 +18,7 @@ export default class Home extends React.Component {
     render() {
         return (
             <>
-            <Box sx = {{p: 1, m: 1}}>
+            <Box variant = "outlined" sx = {{p: 1, m: 1}}>
                 <Box sx = {{ p: 1, m: 1}}>
                     <Card sx={{ flexGrow: 1, p: 1, m: 1}}>
                         <h1> Welcome to Leftist Media Group </h1>           
