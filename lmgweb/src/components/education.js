@@ -2,6 +2,8 @@ import React from "react";
 
 import Card from '@mui/material/Card';
 
+import Paper from '@mui/material/Paper';
+
 
 export default class Education extends React.Component {
     constructor(props) {
@@ -16,7 +18,7 @@ export default class Education extends React.Component {
         return (
             <>
 
-            <Card variant = "outlined" sx = {{p: 1, m: 1}}>
+            <Paper elevation = {1} variant = "outlined" sx = {{p: 1, m: 1}}>
 
                 <Card variant = "outlined" sx = {{p: 1, m: 1}}>
 
@@ -30,7 +32,7 @@ export default class Education extends React.Component {
                     </p>
                 </Card>
 
-            </Card>
+            </Paper>
 
             <Card sx = {{p: 1, m: 1}}>
                 <p>

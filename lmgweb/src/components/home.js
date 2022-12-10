@@ -3,7 +3,7 @@ import React from "react";
 import Card from '@mui/material/Card';
 
 import Projects from "./projects/projects.js";
-import { Paper } from "@mui/system";
+import Paper from '@mui/material/Paper';
 
 
 export default class Home extends React.Component {
