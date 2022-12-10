@@ -16,10 +16,8 @@ const darkTheme = createTheme({
   },
   overrides: {
     MUIBox: {
-      padding: {
-        paddingTop: "30px",
-        paddingBottom: "30px"
-      }
+      p: 2,
+      m: 2
     }
   }
 });
