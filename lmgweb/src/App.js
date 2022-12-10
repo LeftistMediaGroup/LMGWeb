@@ -21,6 +21,8 @@ const darkTheme = createTheme({
   }
 });
 
+darkTheme.spacing(2);
+
 function App() {
   return (
     <>
