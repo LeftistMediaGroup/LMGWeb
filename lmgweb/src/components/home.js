@@ -18,7 +18,7 @@ export default class Home extends React.Component {
     render() {
         return (
             <>
-            <Box variant = "outlined" sx = {{p: 1, m: 1}}>
+            <Card variant = "outlined" sx = {{p: 1, m: 1}}>
                 <Box sx = {{ p: 1, m: 1}}>
                     <Card sx={{ flexGrow: 1, p: 1, m: 1}}>
                         <h1> Welcome to Leftist Media Group </h1>           
@@ -40,10 +40,9 @@ export default class Home extends React.Component {
                         climate catastrophe and fascist leadership path. As such, Leftist Media Group is creating a number <br/>
                         of projects to be community lead, all focused on a specific avenue of dismantaling Capitalism one brick <br/>
                         at a time. <br/>
-                        <br/>
                     </Card>
                 </Box>
-            </Box>
+            </Card>
 
             <Box sx = {{ p: 1, m: 1}}>
                 <Card variant="outlined">
