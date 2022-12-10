@@ -23,11 +23,7 @@ export default class Capitalism extends React.Component {
                 </Card>
                 
                 <Card sx = {{p: 1, m: 1}}>
-                    <p>
-                        If you were to google Capitalism, you'd get a very different answer you're going to receive here. 
-                        <br/>
-                        <br/>
-                        
+                    <p>                        
                         The following statement is not to be taken lightheartedly. 
                         <br/>
                         <br/>
@@ -46,6 +42,8 @@ export default class Capitalism extends React.Component {
                         The point here, is that Capitalism is an idea that someone came up with. That idea, that one must buy things in order to live has resulted in an unimaginably large amount of human, animal, and ecological suffering and death paralleled only by Mass Extinction events. 
                         <br/>
                         <br/>
+
+                        This website is dedicated to showing how Capitalism has caused this, and the much prettier note of what we can do to fix it.
                     </p>
                 </Card>
             </Paper>
