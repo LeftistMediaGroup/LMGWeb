@@ -15,56 +15,54 @@ export default class Projects extends React.Component {
     render() {
         return (
             <>
+    
             <Box sx = {{ p: 1, m: 1}}>
                 <Card sx = {{p: 1, m: 1}}>
                     <h1> Projects </h1>           
                 </Card>
             </Box>
 
-            <Box sx = {{ p: 1, m: 1}}>
-                <Card variant="outlined" sx={{ flexGrow: 1, p: 1, m: 1 }}>
-                    <Card variant="outlined">
-                        <h2> LMG - Memes</h2>
+            <Box variant="outlined" sx={{ flexGrow: 1, p: 1, m: 1 }}>
+                <Card variant="outlined" sx={{p: 1, m: 1 }}>
+                    <h2> LMG - Memes</h2>
 
-                        <p> 
-                            LMG - Memes is a facebook page that shares leftist propaganda.
-                        </p>
-                    </Card>
+                    <p> 
+                        LMG - Memes is a facebook page that shares leftist propaganda.
+                    </p>
+                </Card>
                 
 
-                    <Card variant="outlined" sx={{ flexGrow: 1, p: 1, m: 1 }}>
-                        <h2> Wade </h2>
+                <Card variant="outlined" sx={{ flexGrow: 1, p: 1, m: 1 }}>
+                    <h2> Wade </h2>
 
-                        <p>
-                            Wade is a community response system made to assist with the development, design, and organization <br/>
-                            of protests. Wade is the mixture of Software and personnel. <br/>                       
-                        </p>
-                    </Card>
+                    <p>
+                        Wade is a community response system made to assist with the development, design, and organization <br/>
+                        of protests. Wade is the mixture of Software and personnel. <br/>                       
+                    </p>
+                </Card>
 
-                    <Card variant="outlined" sx={{ flexGrow: 1, p: 1, m: 1 }}>
-                        <h2> Leftism Through Music </h2>
+                <Card variant="outlined" sx={{ flexGrow: 1, p: 1, m: 1 }}>
+                    <h2> Leftism Through Music </h2>
 
-                        <p>
-                            This course will provide listeners with a playlist of 80+ downloadable leftist songs to listen to and reflect <br/>
-                            on centered around leftist topics.<br/>
-                            Topics include: <br/>
-                                -#Marxism <br/>
-                                -#Anarchism <br/>
-                                -#Communism <br/>
-                                -#ACAB <br/>
-                                -#Revolution <br/>
-                                -#WorkersRights <br/>
-                                -#Capitalism <br/>
-                                -#BLM <br/>
-                                -#RevolutionaryThought <br/>
-                                -Much more! <br/>
-                            Students will be provided with a leftist playlist, lyrics, collaborative notes, mentors, and other multimedia aids. <br/>
-                        </p>
-                    </Card>
-
+                    <p>
+                        This course will provide listeners with a playlist of 80+ downloadable leftist songs to listen to and reflect <br/>
+                        on centered around leftist topics.<br/>
+                        Topics include: <br/>
+                            -#Marxism <br/>
+                            -#Anarchism <br/>
+                            -#Communism <br/>
+                            -#ACAB <br/>
+                            -#Revolution <br/>
+                            -#WorkersRights <br/>
+                            -#Capitalism <br/>
+                            -#BLM <br/>
+                            -#RevolutionaryThought <br/>
+                            -Much more! <br/>
+                        Students will be provided with a leftist playlist, lyrics, collaborative notes, mentors, and other multimedia aids. <br/>
+                    </p>
                 </Card>
             </Box>
-            
+    
             </>
         );
     };
