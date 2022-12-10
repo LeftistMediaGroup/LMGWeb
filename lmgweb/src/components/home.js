@@ -43,13 +43,9 @@ export default class Home extends React.Component {
                     </Card>
                 </Box>
             </Card>
-
-            <Box sx = {{ p: 1, m: 1}}>
-                <Card variant = "outlined" sx = {{p: 1, m: 1}}>
-                    <Projects></Projects>
-                </Card>
-            </Box>
-
+            
+            <Projects></Projects>
+            
             <Box sx = {{ p: 1, m: 1}}>
                 <Card sx={{ flexGrow: 1, p: 1, m: 1}}>
                     <p>
