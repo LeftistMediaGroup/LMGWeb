@@ -45,16 +45,14 @@ export default class Home extends React.Component {
             </Card>
             
             <Projects></Projects>
-            
-            <Box sx = {{ p: 1, m: 1}}>
-                <Card sx={{ flexGrow: 1, p: 1, m: 1}}>
-                    <p>
-                        This site is currently under development as a proof of concept. <br></br>
 
-                        If you would like to contact the admin, please send an email to LeftistMediaGroup.com<br></br>
-                    </p>
-                </Card>
-            </Box>
+            <Card sx={{ flexGrow: 1, p: 1, m: 1}}>
+                <p>
+                    This site is currently under development as a proof of concept. <br></br>
+
+                    If you would like to contact the admin, please send an email to LeftistMediaGroup.com<br></br>
+                </p>
+            </Card>
             
             </>
         );
