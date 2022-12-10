@@ -1,7 +1,7 @@
 import React from "react";
 
 import Card from '@mui/material/Card';
-import { Box } from "@mui/system";
+import { Paper } from "@mui/system";
 
 export default class Projects extends React.Component {
     constructor(props) {
@@ -17,14 +17,14 @@ export default class Projects extends React.Component {
             <>
 
             <Card variant = "outlined" sx = {{p: 1, m: 1}}>
-                <Box sx = {{ p: 1, m: 1}}>
+                <Paper sx = {{ p: 1, m: 1}}>
                 
                     <Card sx = {{p: 1, m: 1}}>
                         <h1> Projects </h1>           
                     </Card>
                     
 
-                    <Box sx={{ flexGrow: 1, p: 1, m: 1 }}>
+                    <Paper sx={{ flexGrow: 1, p: 1, m: 1 }}>
                         <Card variant="outlined" sx={{p: 1, m: 1 }}>
                             <h2> LMG - Memes</h2>
 
@@ -63,8 +63,8 @@ export default class Projects extends React.Component {
                                 Students will be provided with a leftist playlist, lyrics, collaborative notes, mentors, and other multimedia aids. <br/>
                             </p>
                         </Card>
-                    </Box>
-                </Box>
+                    </Paper>
+                </Paper>
             </Card>
 
             </>
