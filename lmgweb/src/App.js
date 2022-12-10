@@ -14,6 +14,14 @@ const darkTheme = createTheme({
   palette: {
     mode: 'dark',
   },
+  overrides: {
+    MUIBox: {
+      root: {
+        margin: "10px",
+        padding: "10px"
+      }
+    }
+  }
 });
 
 function App() {
