@@ -22,7 +22,7 @@ export default class Capitalism extends React.Component {
                     <h1> What is Capitalism?</h1>           
                 </Card>
                 
-                <Card sx = {{p: 1, m: 1}}>
+                <Card variant = "outlined" sx = {{p: 1, m: 1}}>
                     <p>                        
                         The following statement is not to be taken lightheartedly. 
                         <br/>
