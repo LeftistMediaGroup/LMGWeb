@@ -24,7 +24,7 @@ export default class Projects extends React.Component {
                     </Card>
                     
 
-                    <Card variant="outlined" sx={{ flexGrow: 1, p: 1, m: 1 }}>
+                    <Box sx={{ flexGrow: 1, p: 1, m: 1 }}>
                         <Card variant="outlined" sx={{p: 1, m: 1 }}>
                             <h2> LMG - Memes</h2>
 
@@ -63,7 +63,7 @@ export default class Projects extends React.Component {
                                 Students will be provided with a leftist playlist, lyrics, collaborative notes, mentors, and other multimedia aids. <br/>
                             </p>
                         </Card>
-                    </Card>
+                    </Box>
                 </Box>
             </Card>
 
