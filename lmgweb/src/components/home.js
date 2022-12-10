@@ -26,8 +26,8 @@ export default class Home extends React.Component {
                     <h2> Organize the Left, start the Revolution. </h2>
                 </Card>
             </Box>
-
-            <Box sx={{ flexDirection: 'row' }}>
+            
+            <Box sx = {{ p: 1, m: 1}}>
                 <Card variant="outlined" sx={{ flexGrow: 1 }}>
                     Leftist Media group is dedicated to Organizing the Left and starting the Revolution. <br/>
                     <br/>
@@ -44,13 +44,13 @@ export default class Home extends React.Component {
                 </Card>
             </Box>
 
-            <Box>
+            <Box sx = {{ p: 1, m: 1}}>
                 <Card variant="outlined">
                     <Projects></Projects>
                 </Card>
             </Box>
 
-            <Box>
+            <Box sx = {{ p: 1, m: 1}}>
                 <Card sx={{ flexGrow: 1 }}>
                     <p>
                         This site is currently under development as a proof of concept. <br></br>

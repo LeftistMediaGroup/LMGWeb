@@ -15,13 +15,13 @@ export default class Projects extends React.Component {
     render() {
         return (
             <>
-            <Box sx={{ flexDirection: 'row' }}>
+            <Box sx = {{ p: 1, m: 1}}>
                 <Card>
                     <h1> Projects </h1>           
                 </Card>
             </Box>
 
-            <Box sx={{ flexDirection: 'row' }}>
+            <Box sx = {{ p: 1, m: 1}}>
                 <Card variant="outlined" sx={{ flexGrow: 1 }}>
                     <Card variant="outlined">
                         <h2> LMG - Memes</h2>
