@@ -5,7 +5,7 @@ import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 
 
-export default class Projects extends React.Component {
+export default class Capitalism extends React.Component {
     constructor(props) {
         super(props)
 

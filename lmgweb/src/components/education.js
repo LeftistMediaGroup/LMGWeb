@@ -4,6 +4,7 @@ import Card from '@mui/material/Card';
 
 import Paper from '@mui/material/Paper';
 
+import Capitalism from "./education/capitalism.js";
 
 export default class Education extends React.Component {
     constructor(props) {
@@ -25,12 +26,7 @@ export default class Education extends React.Component {
                     <h1> Education </h1>           
                 </Card>
 
-                <Card variant = "outlined" sx = {{p: 1, m: 1}}>
-
-                    <p>
-                        This page is soon to be filled with lots of Educational leftist content.
-                    </p>
-                </Card>
+                <Capitalism></Capitalism>
 
             </Paper>
 
