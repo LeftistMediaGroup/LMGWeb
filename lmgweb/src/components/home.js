@@ -19,7 +19,7 @@ export default class Home extends React.Component {
         return (
             <>
                 <Paper elevation={1} variant="outlined" sx={{ p: 1, m: 1 }}>
-                    <Paper elevation={1} sx={{ p: 1, m: 1 }}>
+                    <Paper variant = "outlined" elevation={1} sx={{ p: 1, m: 1 }}>
                         <Card sx={{ flexGrow: 1, p: 1, m: 1 }}>
                             <h1> Welcome to Leftist Media Group </h1>
 
@@ -27,7 +27,7 @@ export default class Home extends React.Component {
                         </Card>
                     </Paper>
 
-                    <Paper elevation = {1} sx = {{ p: 1, m: 1 }}>
+                    <Paper variant = "outlined" elevation = {1} sx = {{ p: 1, m: 1 }}>
                         <Card variant="outlined" sx={{ flexGrow: 1, p: 1, m: 1 }}>
                             Leftist Media group is dedicated to Organizing the Left and starting the Revolution. <br />
                             <br />

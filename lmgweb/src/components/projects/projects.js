@@ -2,6 +2,8 @@ import React from "react";
 
 import Card from '@mui/material/Card';
 import Paper from '@mui/material/Paper';
+import Box from '@mui/material/Box';
+
 
 export default class Projects extends React.Component {
     constructor(props) {
@@ -17,7 +19,7 @@ export default class Projects extends React.Component {
             <>
 
             <Card variant = "outlined" sx = {{p: 1, m: 1}}>
-                <Paper variant = "outlined" sx = {{ p: 1, m: 1}}>
+                <Box variant = "outlined" sx = {{ p: 1, m: 1}}>
                 
                     <Card sx = {{p: 1, m: 1}}>
                         <h1> Projects </h1>           
@@ -64,7 +66,7 @@ export default class Projects extends React.Component {
                             </p>
                         </Card>
                     </Paper>
-                </Paper>
+                </Box>
             </Card>
 
             </>
