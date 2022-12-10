@@ -16,13 +16,13 @@ export default class Projects extends React.Component {
         return (
             <>
             <Box sx = {{ p: 1, m: 1}}>
-                <Card>
+                <Card sx = {{p: 1, m: 1}}>
                     <h1> Projects </h1>           
                 </Card>
             </Box>
 
             <Box sx = {{ p: 1, m: 1}}>
-                <Card variant="outlined" sx={{ flexGrow: 1 }}>
+                <Card variant="outlined" sx={{ flexGrow: 1, p: 1, m: 1 }}>
                     <Card variant="outlined">
                         <h2> LMG - Memes</h2>
 
@@ -32,7 +32,7 @@ export default class Projects extends React.Component {
                     </Card>
                 
 
-                    <Card variant="outlined" sx={{ flexGrow: 1 }}>
+                    <Card variant="outlined" sx={{ flexGrow: 1, p: 1, m: 1 }}>
                         <h2> Wade </h2>
 
                         <p>
@@ -41,7 +41,7 @@ export default class Projects extends React.Component {
                         </p>
                     </Card>
 
-                    <Card variant="outlined" sx={{ flexGrow: 1 }}>
+                    <Card variant="outlined" sx={{ flexGrow: 1, p: 1, m: 1 }}>
                         <h2> Leftism Through Music </h2>
 
                         <p>

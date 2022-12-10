@@ -20,7 +20,7 @@ export default class Home extends React.Component {
             <>
             
             <Box sx = {{ p: 1, m: 1}}>
-                <Card variant = "outlined" sx={{ flexGrow: 1 }}>
+                <Card sx={{ flexGrow: 1, p: 1, m: 1}}>
                     <h1> Welcome to Leftist Media Group </h1>           
 
                     <h2> Organize the Left, start the Revolution. </h2>
@@ -28,7 +28,7 @@ export default class Home extends React.Component {
             </Box>
             
             <Box sx = {{ p: 1, m: 1}}>
-                <Card variant="outlined" sx={{ flexGrow: 1 }}>
+                <Card variant="outlined" sx={{ flexGrow: 1, p: 1, m: 1 }}>
                     Leftist Media group is dedicated to Organizing the Left and starting the Revolution. <br/>
                     <br/>
                     Accomplishing this task will require educating the masses on the effects of Capitalism. <br/>
@@ -51,7 +51,7 @@ export default class Home extends React.Component {
             </Box>
 
             <Box sx = {{ p: 1, m: 1}}>
-                <Card sx={{ flexGrow: 1 }}>
+                <Card sx={{ flexGrow: 1, p: 1, m: 1}}>
                     <p>
                         This site is currently under development as a proof of concept. <br></br>
 
