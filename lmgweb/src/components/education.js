@@ -30,15 +30,14 @@ export default class Education extends React.Component {
                     </p>
                 </Card>
 
-                <Card variant = "outlined" sx = {{p: 1, m: 1}}>
+            </Card>
 
-                    <p>
-                        This site is currently under development as a proof of concept. <br></br>
-
-                        If you would like to contact the admin, please send an email to LeftistMediaGroup.com<br></br>
-
-                    </p>
-                </Card>
+            <Card sx = {{p: 1, m: 1}}>
+                
+                <p>
+                    This site is currently under development as a proof of concept. <br></br>
+                    If you would like to contact the admin, please send an email to LeftistMediaGroup.com<br></br>
+                </p>
             </Card>
 
             </>
