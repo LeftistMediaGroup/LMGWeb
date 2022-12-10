@@ -4,21 +4,7 @@ import Card from '@mui/material/Card';
 
 import Projects from "./projects/projects.js";
 import { Box } from "@mui/system";
-import { ThemeProvider, createTheme } from '@mui/material/styles';
 
-
-const darkTheme = createTheme({
-    palette: {
-      mode: 'dark',
-    },
-    
-    card: {
-      p: 2,
-      m: 2
-    }
-});
-  
-darkTheme.spacing(2);
 
 export default class Home extends React.Component {
     constructor(props) {
@@ -32,8 +18,8 @@ export default class Home extends React.Component {
     render() {
         return (
             <>
-            <ThemeProvider>
-            <Box sx={{ flexDirection: 'row' }}>
+            
+            <Box sx = {{ p: 1, m: 1}}>
                 <Card variant = "outlined" sx={{ flexGrow: 1 }}>
                     <h1> Welcome to Leftist Media Group </h1>           
 
@@ -73,7 +59,7 @@ export default class Home extends React.Component {
                     </p>
                 </Card>
             </Box>
-            </ThemeProvider>
+            
             </>
         );
     };
