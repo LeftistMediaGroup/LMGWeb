@@ -5,6 +5,8 @@ import Card from '@mui/material/Card';
 import Paper from '@mui/material/Paper';
 
 import Capitalism from "./education/capitalism.js";
+import Anarchism from "./education/anarchism.js";
+
 
 export default class Education extends React.Component {
     constructor(props) {
@@ -30,8 +32,8 @@ export default class Education extends React.Component {
 
                     <p>
                         -What is Capitalism? <br/>
-                        -Marxism <br/>
                         -Anarchism <br/>
+                        -Marxism <br/>
                         -Communism <br/>
                         -ACAB <br/>
                         -Revolution <br/>
@@ -42,6 +44,8 @@ export default class Education extends React.Component {
                 </Card>
 
                 <Capitalism></Capitalism>
+                
+                <Anarchism></Anarchism>
 
             </Paper>
 
