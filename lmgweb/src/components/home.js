@@ -34,11 +34,11 @@ export default class Home extends React.Component {
                             Accomplishing this task will require educating the masses on the effects of Capitalism. <br />
                             <br />
                             The goal of overthrowing Capitalism will require many subtasks, as the only way to defeat it <br />
-                            is through the power of love, or in other words, a multifaceted attack from evrey angle possible. <br />
+                            is through the power of love, or in other words, a multifaceted attack from every angle possible. <br />
                             <br />
                             There is only a finite amount of time left as Capitalism has sent us near the end of our <br />
                             climate catastrophe and fascist leadership path. As such, Leftist Media Group is creating a number <br />
-                            of projects to be community lead, all focused on a specific avenue of dismantaling Capitalism one brick <br />
+                            of projects to be community lead, all focused on a specific avenue of dismantling Capitalism one brick <br />
                             at a time. <br />
                         </Card>
                     </Paper>

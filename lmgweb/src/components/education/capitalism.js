@@ -39,7 +39,7 @@ export default class Capitalism extends React.Component {
                         Within Capitalism, you buy things in order to live. At first glance, this seems normal, "This is the way things have always been" one might think, but that idea is completely debunked. For example, Indigenous peoples, at least those of North America, did not use money to survive, instead they shared what they had as a community. <br/>
                         <br/>
 
-                        The point here, is that Capitalism is an idea that someone came up with. That idea, that one must buy things in order to live has resulted in an unimaginably large amount of human, animal, and ecological suffering and death paralleled only by Mass Extinction events. 
+                        The point here, is that Capitalism is an idea that someone came up with. That idea, that one must buy things in order to live, has resulted in an unimaginably large amount of human, animal, and ecological suffering and death paralleled only by Mass Extinction events. 
                         <br/>
                         <br/>
 
