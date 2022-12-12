@@ -36,8 +36,6 @@ export default class Anarchism extends React.Component {
                         <br/>
 
                         This is in sharp contrast to our current system, where we essentially "elect" some random person to in theory, represent our personal views about how the world should be run. Then the person that's convinced the most people to elect them, get's to essentially run the geopolitical stage. 
-                        <br/>
-                        <br/>
                     </p>
                 </Card>
             </Paper>

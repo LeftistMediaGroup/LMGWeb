@@ -52,7 +52,7 @@ export default class Education extends React.Component {
             <Card sx = {{p: 1, m: 1}}>
                 <p>
                     This site is currently under development as a proof of concept. <br></br>
-                    If you would like to contact the admin, please send an email to LeftistMediaGroup.com<br></br>
+                    If you would like to contact the admin, please send an email to LeftistMediaGroup@Gmail.com<br></br>
                 </p>
             </Card>
 
