@@ -29,17 +29,18 @@ export default class Home extends React.Component {
 
                     <Paper variant = "outlined" elevation = {1} sx = {{ p: 1, m: 1 }}>
                         <Card variant="outlined" sx={{ flexGrow: 1, p: 1, m: 1 }}>
-                            Leftist Media group is dedicated to Organizing the Left and starting the Revolution. <br />
+                            Leftist Media group is dedicated to Organizing the Left and starting the Revolution. 
                             <br />
-                            Accomplishing this task will require educating the masses on the effects of Capitalism. <br />
                             <br />
-                            The goal of overthrowing Capitalism will require many subtasks, as the only way to defeat it <br />
-                            is through the power of love, or in other words, a multifaceted attack from every angle possible. <br />
+                            Accomplishing this task will require educating the masses on the effects of Capitalism.                             <br />
+                            The goal of overthrowing Capitalism will require many subtasks, as the only way to defeat it
+                            is through the power of love, or in other words, a multifaceted attack from every angle possible. 
+                            <br />
                             <br />
                             There is only a finite amount of time left as Capitalism has sent us near the end of our <br />
                             climate catastrophe and fascist leadership path. As such, Leftist Media Group is creating a number <br />
                             of projects to be community lead, all focused on a specific avenue of dismantling Capitalism one brick <br />
-                            at a time. <br />
+                            at a time.
                         </Card>
                     </Paper>
                     

@@ -40,8 +40,8 @@ export default class Projects extends React.Component {
                             <h2> Wade </h2>
 
                             <p>
-                                Wade is a community response system made to assist with the development, design, and organization <br/>
-                                of protests. Wade is the mixture of Software and personnel. <br/>                       
+                                Wade is a community response system made to assist with the development, design, and organization
+                                of protests. Wade is the mixture of Software and personnel.                     
                             </p>
                         </Card>
 
@@ -49,8 +49,9 @@ export default class Projects extends React.Component {
                             <h2> Leftism Through Music </h2>
 
                             <p>
-                                This course will provide listeners with a playlist of 80+ downloadable leftist songs to listen to and reflect <br/>
-                                on centered around leftist topics.<br/>
+                                This course will provide listeners with a playlist of 80+ downloadable leftist songs to listen to and reflect
+                                on centered around leftist topics.
+                                <br/>
                                 Topics include: <br/>
                                     -#Marxism <br/>
                                     -#Anarchism <br/>
