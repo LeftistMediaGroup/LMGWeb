@@ -1,6 +1,8 @@
 import React from "react";
 
 import { AppBar, Toolbar, Stack, Button } from "@mui/material";
+import Link from '@mui/material/Link';
+
 
 
 export const Navbar = () => {
@@ -19,7 +21,9 @@ export const Navbar = () => {
                     </Button>
 
                     <Button color = "inherit">
-                        <a href="./volunteering"> Volunteering </a> 
+                        <Link href="./volunteering" color="inherit">
+                            {'color="inherit"'}
+                        </Link>
                     </Button>
                 </Stack>
             </Toolbar>
