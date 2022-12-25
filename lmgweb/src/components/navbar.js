@@ -17,11 +17,13 @@ export const Navbar = () => {
 
                 <Stack direction = "row" spacing={2}>
                     <Button color = "inherit">
-                        <a href="./education"> Education </a> 
+                        <Link href="./Education" color="inherit">
+                            Education
+                        </Link>
                     </Button>
 
                     <Button color = "inherit">
-                        <Link href="./volunteering.js" color="inherit">
+                        <Link href="./volunteering" color="inherit">
                             Volunteering
                         </Link>
                     </Button>
