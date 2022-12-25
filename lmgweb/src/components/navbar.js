@@ -22,7 +22,7 @@ export const Navbar = () => {
 
                     <Button color = "inherit">
                         <Link href="./volunteering" color="inherit">
-                            {'color="inherit"'}
+                            Volunteering
                         </Link>
                     </Button>
                 </Stack>
