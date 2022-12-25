@@ -8,6 +8,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Navbar } from './components/navbar.js';
 import Home from './components/home.js';
 import Education from './components/education.js';
+import Volunteering from './components/volunteering.js';
 
 
 const darkTheme = createTheme({
@@ -35,6 +36,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/education" element = {<Education />} >
+          </Route>
+
+          <Route path="/volunteering" element = {<Volunteering/>} >
           </Route>
 
           <Route exact path="/" element = {<Home />} >

@@ -21,7 +21,7 @@ export const Navbar = () => {
                     </Button>
 
                     <Button color = "inherit">
-                        <Link href="./volunteering" color="inherit">
+                        <Link href="./volunteering.js" color="inherit">
                             Volunteering
                         </Link>
                     </Button>
