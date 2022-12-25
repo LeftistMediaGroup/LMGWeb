@@ -19,7 +19,7 @@ export const Navbar = () => {
                     </Button>
 
                     <Button color = "inherit">
-                        <a href="./volunteering.js"> Volunteering </a> 
+                        <a href="./volunteering"> Volunteering </a> 
                     </Button>
                 </Stack>
             </Toolbar>
