@@ -59,13 +59,13 @@ export default class Music extends React.Component {
                 destroy player
             </button>
             
-            <button onClick={this.audio.togglePlay}>toggle play</button>
-            <button onClick={this.audio.clear}>clear audio lists</button>
-            <button onClick={this.audio.playNext}>play next</button>
-            <button onClick={this.audio.playPrev}>play prev</button>
-            <button onClick={() => this.audio.playByIndex(1)}>play by index</button>
+            <button onClick={this.audioInstance.togglePlay}>toggle play</button>
+            <button onClick={this.audioInstance.clear}>clear audio lists</button>
+            <button onClick={this.audioInstance.playNext}>play next</button>
+            <button onClick={this.audioInstance.playPrev}>play prev</button>
+            <button onClick={() => this.audioInstance.playByIndex(1)}>play by index</button>
             
-            <button onClick={() => this.audio.updatePlayIndex(1)}>
+            <button onClick={() => this.audioInstance.updatePlayIndex(1)}>
                 update play index
             </button>
 
