@@ -27,6 +27,12 @@ export const Navbar = () => {
                             Volunteering
                         </Link>
                     </Button>
+
+                    <Button color = "inherit">
+                        <Link href="./videos" color="inherit">
+                            Videos
+                        </Link>
+                    </Button>
                 </Stack>
             </Toolbar>
         </AppBar>
