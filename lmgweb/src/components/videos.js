@@ -27,7 +27,7 @@ export default class Videos extends React.Component {
                 </Card>
             </Paper>
 
-            <ReactPlayer url='https://wade.4a2ib8tj96gajw856jj7.xyz/' />
+            <ReactPlayer url='https://wade.4a2ib8tj96gajw856jj7.xyz/vidChunk?id=1' />
 
             </>
         );
