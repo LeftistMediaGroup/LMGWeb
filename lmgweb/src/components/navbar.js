@@ -33,6 +33,13 @@ export const Navbar = () => {
                             Music
                         </Link>
                     </Button>
+
+                    <Button color = "inherit">
+                        <Link href="./account" color="inherit">
+                            Account
+                        </Link>
+                    </Button>
+
                 </Stack>
             </Toolbar>
         </AppBar>
