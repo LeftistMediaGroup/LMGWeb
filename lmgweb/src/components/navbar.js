@@ -29,8 +29,8 @@ export const Navbar = () => {
                     </Button>
 
                     <Button color = "inherit">
-                        <Link href="./videos" color="inherit">
-                            Videos
+                        <Link href="./music" color="inherit">
+                            Music
                         </Link>
                     </Button>
                 </Stack>

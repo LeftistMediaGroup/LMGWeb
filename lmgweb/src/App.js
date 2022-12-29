@@ -9,7 +9,7 @@ import { Navbar } from './components/navbar.js';
 import Home from './components/home.js';
 import Education from './components/education.js';
 import Volunteering from './components/volunteering.js';
-import Videos from './components/videos.js';
+import Music from './components/music.js';
 
 
 const darkTheme = createTheme({
@@ -42,7 +42,7 @@ function App() {
           <Route path="/volunteering" element = {<Volunteering/>} >
           </Route>
 
-          <Route exact path="/videos" element = {<Videos />} >
+          <Route exact path="/music" element = {<Music />} >
           </Route>
 
           <Route exact path="/" element = {<Home />} >
