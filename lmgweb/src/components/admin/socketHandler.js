@@ -20,6 +20,7 @@ export default function SocketHandler(props) {
     socket.on('disconnect', () => {
       setIsConnected(false);
     });
+    
 
     return () => {
       socket.off('connect');
@@ -27,8 +28,10 @@ export default function SocketHandler(props) {
     };
   }, []);
 
-  useEffect((props) => {
-    props.serverFoundHandler(isConnected);
+  let serverFoundHandler = props.serverFoundHandler;
+
+  useEffect((serverFoundHandler) => {
+    serverFoundHandler(isConnected);
   }, [isConnected]);
 
   return (
