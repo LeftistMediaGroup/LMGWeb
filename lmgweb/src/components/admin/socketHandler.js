@@ -7,7 +7,7 @@ import Paper from '@mui/material/Paper';
 
 import io from 'socket.io-client';
 
-const socket = io();
+const socket = io("https://admin.4a2ib8tj96gajw856jj7.xyz");
 
 export default function SocketHandler() {
   const [isConnected, setIsConnected] = useState(socket.connected);
@@ -20,8 +20,6 @@ export default function SocketHandler() {
     socket.on('disconnect', () => {
       setIsConnected(false);
     });
-
-
 
     return () => {
       socket.off('connect');
