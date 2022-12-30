@@ -11,6 +11,8 @@ import Education from './components/education.js';
 import Volunteering from './components/volunteering.js';
 import Music from './components/music.js';
 import Account from './components/account.js';
+import Admin from './components/admin.js';
+
 
 const darkTheme = createTheme({
   palette: {
@@ -46,6 +48,9 @@ function App() {
           </Route>
 
           <Route exact path="/account" element = {<Account />} >
+          </Route>
+
+          <Route exact path="/admin" element = {<Admin />} >
           </Route>
 
           <Route exact path="/" element = {<Home />} >
