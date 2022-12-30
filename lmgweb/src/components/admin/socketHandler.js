@@ -9,7 +9,7 @@ import io from 'socket.io-client';
 
 const socket = io("https://admin.4a2ib8tj96gajw856jj7.xyz");
 
-export default function SocketHandler() {
+export default function SocketHandler(props) {
   const [isConnected, setIsConnected] = useState(socket.connected);
 
   useEffect(() => {
@@ -26,6 +26,10 @@ export default function SocketHandler() {
       socket.off('disconnect');
     };
   }, []);
+
+  useEffect((props) => {
+    props.serverFoundHandler(isConnected);
+  }, [isConnected]);
 
   return (
     <>

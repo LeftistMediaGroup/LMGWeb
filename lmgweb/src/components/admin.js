@@ -21,6 +21,14 @@ export default class Admin extends React.Component {
         };
     };
 
+    serverFoundHandler (isConnected) {
+        if (isConnected === true){
+            this.setState({
+                "serverFound": true
+            });
+        };
+    };
+
 
     render() {
         return (
@@ -38,7 +46,7 @@ export default class Admin extends React.Component {
                     <h2> Server Found?: {this.state.serverFound}</h2>
                 </Card>
 
-                <SocketHandler>
+                <SocketHandler serverFoundHandler = {this.serverFoundHandler}>
                 </SocketHandler>
 
                 </>
