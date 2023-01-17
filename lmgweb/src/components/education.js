@@ -6,6 +6,11 @@ import Paper from '@mui/material/Paper';
 
 import Capitalism from "./education/capitalism.js";
 import Anarchism from "./education/anarchism.js";
+import Effects from "./education/effects.js";
+import Revolution from "./education/revolution.js";
+import ThePlan from "./education/the_plan.js";
+import WhyBother from "./education/why_bother.js";
+import Trade from "./education/trade.js";
 
 
 export default class Education extends React.Component {
@@ -47,6 +52,15 @@ export default class Education extends React.Component {
                 
                 <Anarchism></Anarchism>
 
+                <Effects></Effects>
+
+                <Revolution></Revolution>
+                
+                <ThePlan></ThePlan>
+
+                <WhyBother></WhyBother>
+                
+                <Trade></Trade>
             </Paper>
 
             <Card sx = {{p: 1, m: 1}}>

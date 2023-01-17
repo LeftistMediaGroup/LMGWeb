@@ -30,9 +30,7 @@ export default function SocketHandler(props) {
 
   let serverFoundHandler = props.serverFoundHandler;
 
-  useEffect((serverFoundHandler) => {
-    serverFoundHandler(isConnected);
-  }, [isConnected]);
+  useEffect(serverFoundHandler(isConnected), [isConnected])
 
   return (
     <>
