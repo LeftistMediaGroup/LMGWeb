@@ -38,10 +38,19 @@ export default class Education extends React.Component {
                     <p>
                         -What is Capitalism? <br/>
                         -Anarchism <br/>
+                        -The effects of Capitalism <br/>
+                        -Revolution <br/>
+                        -The Plan <br/>
+                        -Why Bother Overthrowing Capitalism Anyway? <br/>
+                        -The Myth of Trade <br/>
+                        <br/>
+
+                        Coming soon<br/>
+                        <br/>
+
                         -Marxism <br/>
                         -Communism <br/>
                         -ACAB <br/>
-                        -Revolution <br/>
                         -Workers Rights <br/>
                         -BLM <br/>
                         -Revolutionary Thinking <br/>
