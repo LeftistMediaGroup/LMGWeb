@@ -45,7 +45,7 @@ export default class Education extends React.Component {
                         -The Myth of Trade <br/>
                         <br/>
 
-                        <h2>Coming soon<h2/>
+                        <h2>Coming soon</h2>
 
                         -Marxism <br/>
                         -Communism <br/>
