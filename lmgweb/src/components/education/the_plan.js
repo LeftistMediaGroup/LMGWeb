@@ -19,7 +19,7 @@ export default class ThePlan extends React.Component {
             
             <Paper variant = "outlined" sx = {{ p: 1, m: 1}}>    
                 <Card sx = {{p: 1, m: 1}}>
-                    <h1> Anarchism </h1>           
+                    <h1> The Plan </h1>           
                 </Card>
                 
                 <Card variant = "outlined" sx = {{p: 1, m: 1}}>
