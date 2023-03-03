@@ -6,6 +6,7 @@ import Paper from '@mui/material/Paper';
 
 import ReactPlayer from 'react-player'
 
+import MusicPlayer from "./MusicPlayer/MusicPlayer";
 
 export default class Music extends React.Component {
     constructor(props) {
@@ -27,6 +28,18 @@ export default class Music extends React.Component {
                 </Card>
             </Paper>
 
+            <h1>
+                New
+            </h1>
+
+            <MusicPlayer>
+            </MusicPlayer>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+
+
+            <h1>
+                Old
+            </h1>
             <ReactPlayer controls = {true} url='https://wade.4a2ib8tj96gajw856jj7.xyz/vidChunk?id=1' />
             <ReactPlayer controls = {true} url='https://wade.4a2ib8tj96gajw856jj7.xyz/vidChunk?id=2' />
 
