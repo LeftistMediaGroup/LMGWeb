@@ -9,6 +9,10 @@ import { FaPlay, FaPause } from "react-icons/fa"
 export default function MusicPlayer() {
     const [isPlaying, setIsPlaying] = useState(false);
 
+    const togglePlayPause = () => {
+        setIsPlaying(!isPlaying);
+    };
+
     return (
         <div className = {styles.musicPlayer}>
             <audio src ="https://wade.4a2ib8tj96gajw856jj7.xyz/vidChunk?id=1"
@@ -21,7 +25,7 @@ export default function MusicPlayer() {
                 Back 30
             </button>
             
-            <button>
+            <button onclick={togglePlayPause}>
               {isPlaying ? <FaPause /> : <FaPlay />}
               
                 <FaPlay/>
