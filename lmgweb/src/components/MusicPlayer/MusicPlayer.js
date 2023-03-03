@@ -20,7 +20,7 @@ export default function MusicPlayer() {
             >
             </audio>
 
-            <button>
+            <button className="styles.forwardBackward">
                 <BsArrowLeftShort/>
                 Back 30
             </button>
@@ -32,7 +32,7 @@ export default function MusicPlayer() {
                 Play / Pause
             </button>
             
-            <button>
+            <button className="styles.forwardBackward">
                 <BsArrowRightShort/>
                 Forward 30
             </button>

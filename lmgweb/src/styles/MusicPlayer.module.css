@@ -1,4 +1,20 @@
 .musicPlayer {
+    --primary: #cc0001;
+
     display: flex;
     width: 700px;
+}
+
+.forwardBackward {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-family: monospace;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.forwardBackward:hover {
+    color: var(--primary); 
 }
