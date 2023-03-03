@@ -1,6 +1,6 @@
 .musicPlayer {
     --primary: #cc0001;
-
+    --secondary: #000000;
     display: flex;
     width: 700px;
 }
@@ -17,4 +17,16 @@
 
 .forwardBackward:hover {
     color: var(--primary); 
+}
+
+.playPause {
+    background: var --primary;
+    border: none;
+    width: 75px;
+    height: 75;
+    font-size: 32;
+    color: var --secondary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

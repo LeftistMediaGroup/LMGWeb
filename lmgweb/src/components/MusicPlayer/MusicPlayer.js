@@ -22,10 +22,10 @@ export default function MusicPlayer() {
 
             <button className="styles.forwardBackward">
                 <BsArrowLeftShort/>
-                Back 30
+                30
             </button>
             
-            <button onclick={togglePlayPause}>
+            <button onclick={togglePlayPause} className={styles.playPause}>
               {isPlaying ? <FaPause /> : <FaPlay />}
               
                 <FaPlay/>
@@ -33,8 +33,8 @@ export default function MusicPlayer() {
             </button>
             
             <button className="styles.forwardBackward">
+                30
                 <BsArrowRightShort/>
-                Forward 30
             </button>
 
             {/*current time*/}
