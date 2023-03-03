@@ -1,6 +1,9 @@
 .musicPlayer {
     --primary: #cc0001;
     --secondary: #000000;
+
+    align-items: center;
+
     display: flex;
     width: 700px;
 }
@@ -29,4 +32,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.play{
+    position: relative;
+    left: 5px;
 }

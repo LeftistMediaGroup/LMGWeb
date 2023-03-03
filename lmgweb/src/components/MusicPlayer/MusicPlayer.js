@@ -26,10 +26,7 @@ export default function MusicPlayer() {
             </button>
             
             <button onclick={togglePlayPause} className={styles.playPause}>
-              {isPlaying ? <FaPause /> : <FaPlay />}
-              
-                <FaPlay/>
-                Play / Pause
+              {isPlaying ? <FaPause /> : <FaPlay className={styles.play} />}
             </button>
             
             <button className="styles.forwardBackward">
