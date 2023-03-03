@@ -9,12 +9,13 @@ export default function MusicPlayer() {
             <audio src ="https://wade.4a2ib8tj96gajw856jj7.xyz/vidChunk?id=1"
             preload = 'metadata'
             >
-                <button>Back 30</button>
-                <button>Play / Pause</button>
-                <button>Forward 30</button>
-
-
             </audio>
+
+            <button>Back 30</button>
+            <button>Play / Pause</button>
+            <button>Forward 30</button>
+
+
 
             {/*current time*/}
             <div>
