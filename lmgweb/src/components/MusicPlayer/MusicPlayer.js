@@ -3,7 +3,7 @@ import React from "React";
 import styles from "../styles/MusicPlayer.module.css";
 
 
-export default const MusicPlayer = () => {
+export default function MusicPlayer() {
     return (
         <div className = {styles.musicPlayer}>
             <audio src ="https://wade.4a2ib8tj96gajw856jj7.xyz/vidChunk?id=1"
