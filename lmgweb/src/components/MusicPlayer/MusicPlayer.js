@@ -42,7 +42,8 @@ export default function MusicPlayer() {
 
             {/*progress bar*/}
             <div>
-                <input type="range">
+                <input type="range"
+                className={styles.progressBar}>
                     
                 </input>
             </div>
