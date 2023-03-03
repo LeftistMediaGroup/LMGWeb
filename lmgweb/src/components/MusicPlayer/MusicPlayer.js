@@ -1,6 +1,6 @@
 import React from "React";
 
-import styles from "../styles/MusicPlayer.module.css";
+import styles from "../../styles/MusicPlayer.module.css";
 
 
 export default function MusicPlayer() {
