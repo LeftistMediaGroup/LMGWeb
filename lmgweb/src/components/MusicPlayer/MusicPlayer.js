@@ -1,9 +1,11 @@
 import React from "React";
 
+import styles from "../styles/MusicPlayer.module.css";
+
 
 export default const MusicPlayer = () => {
     return (
-        <div>
+        <div className = {styles.musicPlayer}>
             <audio src ="https://wade.4a2ib8tj96gajw856jj7.xyz/vidChunk?id=1"
             preload = 'metadata'
             >
