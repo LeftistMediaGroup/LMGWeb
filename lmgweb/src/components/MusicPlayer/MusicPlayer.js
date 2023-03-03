@@ -35,8 +35,9 @@ export default function MusicPlayer() {
             </button>
 
             {/*current time*/}
-            <div>
-
+            <div
+                className={styles.currentTime}>
+                    0:00
             </div>
 
             {/*progress bar*/}
@@ -47,6 +48,10 @@ export default function MusicPlayer() {
             </div>
 
             {/*duration*/}
+            <div className={styles.duration}>
+
+            </div>
+
         </div>
     );
 };
