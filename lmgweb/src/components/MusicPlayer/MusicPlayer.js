@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import styles from "../../styles/MusicPlayer.module.css";
 
-import { BsArrowLeftShort, BsArrowRightShort} from "react-icons/bs";
+import { BsArrowLeftShort, BsArrowRightShort} from "react-icons/Bs";
 import { FaPlay, FaPause } from "react-icons/fa"
 
 
