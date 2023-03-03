@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 
 import styles from "../../styles/MusicPlayer.module.css";
 
+import { BsArrowLeftShort, BsArrowRightShort} from "react-icons/bs";
+import { FaPlay, FaPause } from "react-icons/fa"
+
 
 export default function MusicPlayer() {
+    const [isPlaying, setIsPlaying] = useState(false);
+
     return (
         <div className = {styles.musicPlayer}>
             <audio src ="https://wade.4a2ib8tj96gajw856jj7.xyz/vidChunk?id=1"
@@ -11,11 +16,22 @@ export default function MusicPlayer() {
             >
             </audio>
 
-            <button>Back 30</button>
-            <button>Play / Pause</button>
-            <button>Forward 30</button>
-
-
+            <button>
+                <BsArrowLeftShort/>
+                Back 30
+            </button>
+            
+            <button>
+              {isPlaying ? <FaPause /> : <FaPlay />}
+              
+                <FaPlay/>
+                Play / Pause
+            </button>
+            
+            <button>
+                <BsArrowRightShort/>
+                Forward 30
+            </button>
 
             {/*current time*/}
             <div>
