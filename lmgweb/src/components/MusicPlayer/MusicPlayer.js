@@ -2,8 +2,8 @@ import React, { useState } from "react";
 
 import styles from "../../styles/MusicPlayer.module.css";
 
-import { BsArrowLeftShort, BsArrowRightShort} from "react-icons/bs"
-import { FaPlay, FaPause } from "react-icons/fa"
+import { BsArrowLeftShort, BsArrowRightShort} from "react-icons/bs";
+import { FaPlay, FaPause } from "react-icons/fa";
 
 
 export default function MusicPlayer() {
