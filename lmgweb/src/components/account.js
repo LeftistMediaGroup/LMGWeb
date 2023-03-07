@@ -94,7 +94,8 @@ export default class Account extends React.Component {
                 <Card variant = "outlined" sx = {{p: 1, m: 1}}>
                     <h1> Account info </h1>
 
-                    <p> Logged in?: {this.state.loggedIn}</p>
+                    <p> Logged in?: </p>
+                    <p> {this.state.loggedIn}</p>
 
                     <Button variant="outlined" 
                     onClick={() => {
