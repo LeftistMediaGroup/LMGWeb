@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 
 import styles from "../../styles/MusicPlayer.module.css";
 
