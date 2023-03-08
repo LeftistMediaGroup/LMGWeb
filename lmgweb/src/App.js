@@ -11,7 +11,7 @@ import Education from './components/education.js';
 import Volunteering from './components/volunteering.js';
 import Music from './components/music.js';
 import Account from './components/account.js';
-import Admin from './components/admin.js';
+import Admin from './components/admin/admin.js';
 
 
 const darkTheme = createTheme({

@@ -6,7 +6,7 @@ import Card from '@mui/material/Card';
 
 import Paper from '@mui/material/Paper';
 
-import SocketHandler from "./admin/socketHandler.js";
+import SocketHandler from "./socketHandler.js";
 
 
 
