@@ -1,13 +1,10 @@
 import React from "react";
 
-import io from 'socket.io-client';
-
 import Card from '@mui/material/Card';
 
 import Paper from '@mui/material/Paper';
 
 import SocketHandler from "./socketHandler.js";
-
 
 
 export default class Admin extends React.Component {
