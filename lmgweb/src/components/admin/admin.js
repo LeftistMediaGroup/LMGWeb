@@ -43,8 +43,8 @@ export default class Admin extends React.Component {
                     <h2> Server Found?: {this.state.serverFound}</h2>
                 </Card>
 
-                <SocketHandler serverFoundHandler = {this.serverFoundHandler}>
-                </SocketHandler>
+                {/*<SocketHandler serverFoundHandler = {this.serverFoundHandler}>
+                </SocketHandler>*/}
 
                 </>
                 }
