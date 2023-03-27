@@ -19,7 +19,7 @@ export default class Projects extends React.Component {
             <>
                 <Paper elevation = {1} sx = {{ p: 1, m: 1 }}>
                 
-                    <Card sx = {{p: 1, m: 1}}>
+                    <Card sx={{ flexGrow: 1, p: 1, m: 1,  border: 1, borderColor: '#d50000' }}>
                         <h1> Projects </h1>           
                     </Card>
                     
