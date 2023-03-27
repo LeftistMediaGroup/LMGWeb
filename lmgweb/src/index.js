@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 import ReactGA from 'react-ga';
 ReactGA.initialize('UA-186764737-1');
+ReactGA.initialize('t2_9yl40f9b');
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
