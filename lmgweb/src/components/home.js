@@ -25,7 +25,7 @@ export default class Home extends React.Component {
                     <Paper elevation={1} sx={{ p: 1, m: 1 }}>
                         <Card sx={{ flexGrow: 1, p: 1, m: 1,  border: 1, borderColor: '#d50000' }}>
                             <CardMedia
-                            style={{ height: "250px", paddingTop: "2%" }}
+                            style={{ height: "500px", width: "1600px", paddingTop: "2%" }}
                                 image={imageUrl}
                                 title="Welcome to Leftist Media Group"
                             />
