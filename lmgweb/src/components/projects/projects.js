@@ -26,7 +26,7 @@ export default class Projects extends React.Component {
                     </Card>
                     
 
-                    <Paper variant = "outlined" sx={{ flexGrow: 1, p: 1, m: 1 }}>
+                    <Paper  sx={{ flexGrow: 1, p: 1, m: 1 }}>
                         <Card variant="outlined" sx={{p: 1, m: 1 }}>
                             <h2> LMG - Memes</h2>
 
