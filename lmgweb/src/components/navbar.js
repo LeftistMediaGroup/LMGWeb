@@ -18,30 +18,31 @@ export const Navbar = () => {
                         </Link>
                     </Button>
 
-                    <Button color = "inherit">
-                        <Link href="./Education" color="inherit">
-                            Education
-                        </Link>
-                    </Button>
+                    <div style={{display: 'flex', justifyContent:'right'}}>
+                        <Button color = "inherit">
+                            <Link href="./Education" color="inherit">
+                                Education
+                            </Link>
+                        </Button>
 
-                    <Button color = "inherit">
-                        <Link href="./volunteering" color="inherit">
-                            Volunteering
-                        </Link>
-                    </Button>
+                        <Button color = "inherit">
+                            <Link href="./volunteering" color="inherit">
+                                Volunteering
+                            </Link>
+                        </Button>
 
-                    <Button color = "inherit">
-                        <Link href="./music" color="inherit">
-                            Music
-                        </Link>
-                    </Button>
+                        <Button color = "inherit">
+                            <Link href="./music" color="inherit">
+                                Music
+                            </Link>
+                        </Button>
 
-                    <Button color = "inherit">
-                        <Link href="./account" color="inherit">
-                            Account
-                        </Link>
-                    </Button>
-
+                        <Button color = "inherit">
+                            <Link href="./account" color="inherit">
+                                Account
+                            </Link>
+                        </Button>
+                    </div>
                 </Stack>
             </Toolbar>
         </AppBar>
