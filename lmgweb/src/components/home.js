@@ -27,7 +27,7 @@ export default class Home extends React.Component {
                             <CardMedia
                                 image={imageUrl}
                                 title="Welcome to Leftist Media Group"
-                                sx={{ padding: "1em 1em 0 1em", objectFit: "contain" }}
+                                sx={{ height: 250, padding: "1em 1em 0 1em", objectFit: "contain" }}
                             />
 
                             <center> 
