@@ -20,7 +20,7 @@ export default class Home extends React.Component {
             <>
                 <Paper elevation={1} variant="outlined" sx={{ p: 1, m: 1 }}>
                     <Paper elevation={1} sx={{ p: 1, m: 1 }}>
-                        <Card sx={{ flexGrow: 1, p: 1, m: 1, borderColor: '#d50000' }}>
+                        <Card sx={{ flexGrow: 1, p: 1, m: 1,  border: 1, borderColor: '#d50000' }}>
                         <center> 
                             <h1> Welcome to Leftist Media Group </h1>
 
