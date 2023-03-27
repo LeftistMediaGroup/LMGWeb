@@ -25,7 +25,7 @@ export default class Projects extends React.Component {
                     </Card>
                     
                     <Paper sx={{ flexGrow: 1, p: 1, m: 1 }}>
-                        <Grid container spacing={2}>
+                        <Grid container spacing={1}>
                             
                             <Grid item>
                                 
