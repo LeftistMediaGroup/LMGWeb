@@ -11,11 +11,13 @@ export const Navbar = () => {
         
         <AppBar position='static' style={{ background: '#d50000' }}>
             <Toolbar size = 'large' edge = 'start'>
-                <Button color = "inherit">
-                    <a href="./"> Leftist Media Group </a> 
-                </Button>
-
                 <Stack direction = "row" spacing={2}>
+                    <Button color = "inherit">
+                        <Link href="./" color="inherit">
+                            Leftist Media Group
+                        </Link>
+                    </Button>
+
                     <Button color = "inherit">
                         <Link href="./Education" color="inherit">
                             Education
