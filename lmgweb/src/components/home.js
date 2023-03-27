@@ -6,6 +6,8 @@ import Projects from "./projects/projects.js";
 import Paper from '@mui/material/Paper';
 import CardMedia from '@mui/material/CardMedia';
 
+import imageUrl from '../static/LMG.jpg'
+
 
 export default class Home extends React.Component {
     constructor(props) {
@@ -23,7 +25,7 @@ export default class Home extends React.Component {
                     <Paper elevation={1} sx={{ p: 1, m: 1 }}>
                         <Card sx={{ flexGrow: 1, p: 1, m: 1,  border: 1, borderColor: '#d50000' }}>
                             <CardMedia
-                                image="../static/LMG.jpg"
+                                image={imageUrl}
                                 title="Welcome to Leftist Media Group"
                             />
 
