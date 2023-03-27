@@ -9,7 +9,6 @@
     "babel-register": "^6.26.0",
     "npm": "^7.24.0",
     "react": "^18.2.0",
-    "react-cool-music-player": "^1.0.6",
     "react-dom": "^18.2.0",
     "react-ga": "^3.3.1",
     "react-jinke-music-player": "^4.24.2",
