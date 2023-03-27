@@ -49,7 +49,7 @@ export default class Home extends React.Component {
                     
                     <Projects></Projects>
            
-                    <Card sx={{ flexGrow: 1, p: 1, m: 1 }}>
+                    <Card sx={{ flexGrow: 1, p: 1, m: 1, border: 1, borderColor: '#d50000' }}>
                         <p>
                             This site is currently under development as a proof of concept.
                             <br>
