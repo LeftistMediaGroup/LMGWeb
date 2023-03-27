@@ -28,7 +28,6 @@ export default class Projects extends React.Component {
                         <Grid container spacing={1}>
                             
                             <Grid item>
-                                
                                 <Card variant="outlined" sx={{p: 1, m: 1 }}>
                                     <h2> LMG - Memes</h2>
 
@@ -39,7 +38,6 @@ export default class Projects extends React.Component {
                             </Grid>
                         
                             <Grid item>
-
                                 <Card variant="outlined" sx={{ flexGrow: 1, p: 1, m: 1 }}>
                                     <h2> Wade </h2>
 
@@ -51,7 +49,6 @@ export default class Projects extends React.Component {
                             </Grid>
 
                             <Grid item xs={8}>
-
                                 <Card variant="outlined" sx={{ flexGrow: 1, p: 1, m: 1 }}>
                                     <h2> Leftism Through Music </h2>
 
