@@ -158,7 +158,7 @@ export class Volunteering extends Component {
         </div>
 
         <div className="col-12 grid-margin stretch-card">
-          <iframe data-w-type="embedded" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" height ="100" src="https://0qx4o.mjt.lu/wgt/0qx4o/34u/form?c=354f22d0" width="100%"></iframe>
+          <iframe data-w-type="embedded" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" display="block" overflow="auto" src="https://0qx4o.mjt.lu/wgt/0qx4o/34u/form?c=354f22d0" width="100%"></iframe>
           <script type="text/javascript" src="https://app.mailjet.com/pas-nc-embedded-v1.js"></script>
         </div>
 
