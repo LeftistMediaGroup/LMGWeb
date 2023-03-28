@@ -5,8 +5,8 @@ import Spinner from '../app/shared/Spinner';
 
 const Dashboard = lazy(() => import('./dashboard/Dashboard'));
 
-const Buttons = lazy(() => import('./basic/basic-ui/Buttons'));
-const Dropdowns = lazy(() => import('./basic/basic-ui/Dropdowns'));
+const Buttons = lazy(() => import('./basic-ui/Buttons'));
+const Dropdowns = lazy(() => import('./basic-ui/Dropdowns'));
 
 const BasicElements = lazy(() => import('./form-elements/BasicElements'));
 
@@ -22,9 +22,9 @@ const Error500 = lazy(() => import('./error-pages/Error500'));
 const Login = lazy(() => import('./user-pages/Login'));
 const Register1 = lazy(() => import('./user-pages/Register'));
 
-const Education = lazy(() => import('./basic/basic-ui/Education'));
-const Volunteering = lazy(() => import('./basic/basic-ui/Volunteering'));
-const Home = lazy(() => import('./basic/basic-ui/Home'));
+const Education = lazy(() => import('./basic/Education'));
+const Volunteering = lazy(() => import('./basic/Volunteering'));
+const Home = lazy(() => import('./basic/Home'));
 
 
 
