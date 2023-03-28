@@ -85,69 +85,68 @@ export class Volunteering extends Component {
         </div>
 
         <div className="col-md-8 grid-margin stretch-card">
-            <div className="card">
-              <div className="card-body">
-                <div className="d-flex flex-row justify-content-between">
-                  <h4 className="card-title mb-1">Projects</h4>
-                  <p className="text-muted mb-1">All Projects need volunteers</p>
-                </div>
-                <div className="row">
-                  <div className="col-12">
-                    <div className="preview-list">
-                      <div className="preview-item border-bottom">
-                        <div className="preview-thumbnail">
-                          <div className="preview-icon bg-primary">
-                            <i className="mdi mdi-file-document"></i>
-                          </div>
-                        </div>
-                        <div className="preview-item-content d-sm-flex flex-grow">
-                          <div className="flex-grow">
-                            <h6 className="preview-subject">LMG - Memes</h6>
-                            <p className="text-muted mb-0">LMG - Memes is a facebook page that shares leftist propaganda.</p>
-                          </div>
-                          <div className="mr-auto text-sm-right pt-2 pt-sm-0">
-                            <p className="text-muted">0 volunteers</p>
-                            <p className="text-muted mb-0">? Tasks </p>
-                            <p className="text-muted">? Issues</p>
-
-                          </div>
+          <div className="card">
+            <div className="card-body">
+              <div className="d-flex flex-row justify-content-between">
+                <h4 className="card-title mb-1">Projects</h4>
+                <p className="text-muted mb-1">All Projects need volunteers</p>
+              </div>
+              <div className="row">
+                <div className="col-12">
+                  <div className="preview-list">
+                    <div className="preview-item border-bottom">
+                      <div className="preview-thumbnail">
+                        <div className="preview-icon bg-primary">
+                          <i className="mdi mdi-file-document"></i>
                         </div>
                       </div>
-                      <div className="preview-item border-bottom">
-                        <div className="preview-thumbnail">
-                          <div className="preview-icon bg-success">
-                            <i className="mdi mdi-cloud-download"></i>
-                          </div>
+                      <div className="preview-item-content d-sm-flex flex-grow">
+                        <div className="flex-grow">
+                          <h6 className="preview-subject">LMG - Memes</h6>
+                          <p className="text-muted mb-0">LMG - Memes is a facebook page that shares leftist propaganda.</p>
                         </div>
-                        <div className="preview-item-content d-sm-flex flex-grow">
-                          <div className="flex-grow">
-                            <h6 className="preview-subject">Wade</h6>
-                            <p className="text-muted mb-0">Community response system made to assist with the development, design, and organization of protests.</p>
-                          </div>
-                          <div className="mr-auto text-sm-right pt-2 pt-sm-0">
-                            <p className="text-muted">0 Volunteers</p>
-                            <p className="text-muted mb-0">? Tasks </p>
-                            <p className="text-muted">? Issues</p>
+                        <div className="mr-auto text-sm-right pt-2 pt-sm-0">
+                          <p className="text-muted">0 volunteers</p>
+                          <p className="text-muted mb-0">? Tasks </p>
+                          <p className="text-muted">? Issues</p>
 
-                          </div>
                         </div>
                       </div>
-                      <div className="preview-item border-bottom">
-                        <div className="preview-thumbnail">
-                          <div className="preview-icon bg-info">
-                            <i className="mdi mdi-clock"></i>
-                          </div>
+                    </div>
+                    <div className="preview-item border-bottom">
+                      <div className="preview-thumbnail">
+                        <div className="preview-icon bg-success">
+                          <i className="mdi mdi-cloud-download"></i>
                         </div>
-                        <div className="preview-item-content d-sm-flex flex-grow">
-                          <div className="flex-grow">
-                            <h6 className="preview-subject">Leftism Through Music</h6>
-                            <p className="text-muted mb-0">This course will provide listeners with a playlist of 80+ downloadable leftist songs to listen to and reflect on centered around leftist topics.</p>
-                          </div>
-                          <div className="mr-auto text-sm-right pt-2 pt-sm-0">
-                            <p className="text-muted">0 Volunteers</p>
-                            <p className="text-muted mb-0">? Tasks</p>
-                            <p className="text-muted">? Issues</p>
-                          </div>
+                      </div>
+                      <div className="preview-item-content d-sm-flex flex-grow">
+                        <div className="flex-grow">
+                          <h6 className="preview-subject">Wade</h6>
+                          <p className="text-muted mb-0">Community response system made to assist with the development, design, and organization of protests.</p>
+                        </div>
+                        <div className="mr-auto text-sm-right pt-2 pt-sm-0">
+                          <p className="text-muted">0 Volunteers</p>
+                          <p className="text-muted mb-0">? Tasks </p>
+                          <p className="text-muted">? Issues</p>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div className="preview-item border-bottom">
+                      <div className="preview-thumbnail">
+                        <div className="preview-icon bg-info">
+                          <i className="mdi mdi-clock"></i>
+                        </div>
+                      </div>
+                      <div className="preview-item-content d-sm-flex flex-grow">
+                        <div className="flex-grow">
+                          <h6 className="preview-subject">Leftism Through Music</h6>
+                          <p className="text-muted mb-0">This course will provide listeners with a playlist of 80+ downloadable leftist songs to listen to and reflect on centered around leftist topics.</p>
+                        </div>
+                        <div className="mr-auto text-sm-right pt-2 pt-sm-0">
+                          <p className="text-muted">0 Volunteers</p>
+                          <p className="text-muted mb-0">? Tasks</p>
+                          <p className="text-muted">? Issues</p>
                         </div>
                       </div>
                     </div>
@@ -157,6 +156,11 @@ export class Volunteering extends Component {
             </div>
           </div>
         </div>
+
+        <iframe data-w-type="embedded" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://0qx4o.mjt.lu/wgt/0qx4o/34u/form?c=354f22d0" width="100%"></iframe>
+        <script type="text/javascript" src="https://app.mailjet.com/pas-nc-embedded-v1.js"></script>
+
+      </div>
     );
   };
 };
