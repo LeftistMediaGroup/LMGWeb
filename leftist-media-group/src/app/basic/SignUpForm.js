@@ -51,10 +51,6 @@ export class SignUpForm extends Component {
     }
   }
 
-  componentDidMount() {
-    bsCustomFileInput.init();
-  }
-
   render() {
     return (
       <div>
