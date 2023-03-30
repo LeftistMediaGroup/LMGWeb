@@ -3,6 +3,8 @@ import { Doughnut } from 'react-chartjs-2';
 
 import { row, column } from "./Home.css";
 
+import SignUpForm from './SignUpForm.js';
+
 export class Home extends Component {
   transactionHistoryData =  {
     labels: ["Software", "Personnel"],
@@ -243,6 +245,9 @@ export class Home extends Component {
             </div>
           </div>
         </div>
+
+        <SignUpForm>
+        </SignUpForm>
 
         <div className="row">
           <div className="col-md-6 grid-margin stretch-card">
