@@ -55,7 +55,6 @@ export class SignUpForm extends Component {
                     <label htmlFor="InputEmail">Email</label>
                     <Form.Control
                       type="email"
-                      className="form-control"
                       id="InputEmail"
                       placeholder="Email"
                     />
@@ -74,7 +73,6 @@ export class SignUpForm extends Component {
                     <label htmlFor="exampleInputPassword1">Password</label>
                     <Form.Control
                       type="password"
-                      className="form-control"
                       id="InputPassword"
                       placeholder="Password"
                     />
