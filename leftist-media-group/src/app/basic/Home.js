@@ -88,16 +88,16 @@ export class Home extends Component {
                 <i className="mdi mdi-earth icon-md text-info d-flex align-self-center mr-3"></i>
                 
                 <div className="row"> 
-                  <div class="column">
+                  <div className="column">
                     <p> Leftist Media group is dedicated to Organizing the Left and starting the Revolution. </p>
                   </div>
 
-                  <div class="column">
+                  <div className="column">
                     <p> Accomplishing this task will require educating the masses on the effects of Capitalism. <br/>
                     The goal of overthrowing Capitalism will require many subtasks, as the only way to defeat it is through the power of love, or in other words, a multifaceted attack from every angle possible. </p>
                   </div>
 
-                  <div class="column">
+                  <div className="column">
                     <p> There is only a finite amount of time left as Capitalism has sent us near the end of our climate catastrophe and fascist leadership path. As such, Leftist Media Group is creating a number of projects to be community lead, all focused on a specific avenue of dismantling Capitalism one brick at a time. </p>
                   </div>
 
@@ -227,15 +227,15 @@ export class Home extends Component {
                 <i className="mdi mdi-account-multiple-plus text-info d-flex align-self-center mr-3"></i>
                 
                 <div className="row"> 
-                  <div class="column">
+                  <div className="column">
                     <p> How to get started </p>
                   </div>
 
-                  <div class="column">
+                  <div className="column">
                     <p> Leftist Media Group is recruiting for volunteers to spread revolutionary propaganda. </p>
                   </div>
 
-                  <div class="column">
+                  <div className="column">
                     <p> If you'd like to join the Revolution, send a email to an admin at LeftistMediaGroup@Gmail.com </p>                  
                   </div>
 
