@@ -13,7 +13,9 @@ export class SignUpForm extends Component {
     };
   }
 
-  submit() {
+  submit(event) {
+    event.preventDefault();
+
     if (this.state.password === this.state.password2) {
       fetch(`https://Back.LeftistMediaGroup.org/register/submit`, {
         method: "POST",
@@ -50,7 +52,7 @@ export class SignUpForm extends Component {
                   Create an account to start Volunteering!{" "}
                 </p>
 
-                <form className="forms-sample" onSubmit="this.submit(); return false;">
+                <form className="forms-sample" onSubmit={this.submit(event)}>
                   <Form.Group>
                     <label htmlFor="InputEmail">Email</label>
                     <Form.Control
