@@ -5,7 +5,6 @@ import AppRoutes from './AppRoutes';
 import Navbar from './shared/Navbar';
 import Sidebar from './shared/Sidebar';
 import Footer from './shared/Footer';
-import { withTranslation } from "react-i18next";
 
 
 class App extends Component {
@@ -44,19 +43,14 @@ class App extends Component {
 
   onRouteChanged() {
     console.log("ROUTE CHANGED");
-
-    
-    const { i18n } = this.props;
     
     const body = document.querySelector('body');
     
     if(this.props.location.pathname === '/layout/RtlLayout') {
       body.classList.add('rtl');
-      i18n.changeLanguage('ar');
     }
     else {
       body.classList.remove('rtl')
-      i18n.changeLanguage('en');
     };
 
     window.scrollTo(0, 0);
@@ -83,4 +77,4 @@ class App extends Component {
   };
 };
 
-export default withTranslation()(withRouter(App));
+export default (withRouter(App));

@@ -121,7 +121,7 @@ export class SignUpForm extends Component {
         </div>
       </div>
     );
-  }
-}
+  };
+};
 
 export default SignUpForm;
