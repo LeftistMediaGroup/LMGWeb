@@ -11,7 +11,8 @@ export class SignUpForm extends Component {
       password: null,
       password2: null,
     };
-
+  }
+  
   submit() {
     if (this.state.password === this.state.password2) {
       fetch(`https://Back.LeftistMediaGroup.org/register/submit/`, {
