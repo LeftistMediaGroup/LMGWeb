@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import { Collapse, Dropdown } from 'react-bootstrap';
-import { Trans } from 'react-i18next';
 
 class Sidebar extends Component {
   state = {};
@@ -61,7 +60,7 @@ class Sidebar extends Component {
         <ul className="nav">
 
           <li className="nav-item nav-category">
-            <span className="nav-link"><Trans>Navigation</Trans></span>
+            <span className="nav-link"><p>Navigation</p></span>
           </li>
 
           <li className={ this.isPathActive('/basic-ui') ? 'nav-item menu-items active' : 'nav-item menu-items' }>
@@ -69,15 +68,15 @@ class Sidebar extends Component {
               <span className="menu-icon">
                 <i className="mdi mdi-laptop"></i>
               </span>
-              <span className="menu-title"><Trans>Home</Trans></span>
+              <span className="menu-title"><p>Home</p></span>
                 <i className="menu-arrow"></i>
             </div>
             
             <Collapse in={ this.state.basicUiMenuOpen }>
               <div>
                 <ul className="nav flex-column sub-menu">
-                  <li className="nav-item"> <Link className={ this.isPathActive('/basic-ui/Typography') ? 'nav-link active' : 'nav-link' } to="/Typography"><Trans>Landing</Trans></Link></li>
-                  <li className="nav-item"> <Link className={ this.isPathActive('/basic-ui/Volunteering') ? 'nav-link active' : 'nav-link' } to="/Volunteering"><Trans>Volunteering</Trans></Link></li>
+                  <li className="nav-item"> <Link className={ this.isPathActive('/basic-ui/Typography') ? 'nav-link active' : 'nav-link' } to="/Typography"><p>Landing</p></Link></li>
+                  <li className="nav-item"> <Link className={ this.isPathActive('/basic-ui/Volunteering') ? 'nav-link active' : 'nav-link' } to="/Volunteering"><p>Volunteering</p></Link></li>
                 </ul>
               </div>
             </Collapse>
@@ -88,14 +87,14 @@ class Sidebar extends Component {
               <span className="menu-icon">
                 <i className="mdi mdi-book-open-variant"></i>
               </span>
-              <span className="menu-title"><Trans>Education</Trans></span>
+              <span className="menu-title"><p>Education</p></span>
                 <i className="menu-arrow"></i>
             </div>
             
             <Collapse in={ this.state.basicUiMenuOpen }>
               <div>
                 <ul className="nav flex-column sub-menu">
-                  <li className="nav-item"> <Link className={ this.isPathActive('/basic-ui/Education') ? 'nav-link active' : 'nav-link' } to="/Education"><Trans>Education</Trans></Link></li>
+                  <li className="nav-item"> <Link className={ this.isPathActive('/basic-ui/Education') ? 'nav-link active' : 'nav-link' } to="/Education"><p>Education</p></Link></li>
                 </ul>
               </div>
             </Collapse>
@@ -106,14 +105,14 @@ class Sidebar extends Component {
               <span className="menu-icon">
                 <i className="mdi mdi-security"></i>
               </span>
-              <span className="menu-title"><Trans>Account</Trans></span>
+              <span className="menu-title"><p>Account</p></span>
               <i className="menu-arrow"></i>
             </div>
             <Collapse in={ this.state.userPagesMenuOpen }>
               <div>
                 <ul className="nav flex-column sub-menu">
-                  <li className="nav-item"> <Link className={ this.isPathActive('/login') ? 'nav-link active' : 'nav-link' } to="/"><Trans>Login (coming soon)</Trans></Link></li>
-                  <li className="nav-item"> <Link className={ this.isPathActive('/register') ? 'nav-link active' : 'nav-link' } to="/"><Trans>Register (coming soon)</Trans></Link></li>
+                  <li className="nav-item"> <Link className={ this.isPathActive('/login') ? 'nav-link active' : 'nav-link' } to="/"><p>Login (coming soon)</p></Link></li>
+                  <li className="nav-item"> <Link className={ this.isPathActive('/register') ? 'nav-link active' : 'nav-link' } to="/"><p>Register (coming soon)</p></Link></li>
                 </ul>
               </div>
             </Collapse>
