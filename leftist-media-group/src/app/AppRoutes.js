@@ -39,7 +39,6 @@ class AppRoutes extends Component {
 
           <Route path="/Volunteering" component={ Volunteering } />
 
-
           <Route path="/dashboard" component={ Dashboard } />
 
           <Route path="/basic-ui/buttons" component={ Buttons } />
