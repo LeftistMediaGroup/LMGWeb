@@ -87,7 +87,7 @@ export class Home extends Component {
               <div className="media">
                 <i className="mdi mdi-earth icon-md text-info d-flex align-self-center mr-3"></i>
                 
-                <div className="media-body row "> 
+                <div className="row"> 
                   <div class="column">
                     <p> Leftist Media group is dedicated to Organizing the Left and starting the Revolution. </p>
                   </div>
@@ -226,7 +226,7 @@ export class Home extends Component {
               <div className="media">
                 <i className="mdi mdi-account-multiple-plus text-info d-flex align-self-center mr-3"></i>
                 
-                <div className="media-body row"> 
+                <div className="row"> 
                   <div class="column">
                     <p> How to get started </p>
                   </div>
