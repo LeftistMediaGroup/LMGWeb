@@ -12,7 +12,7 @@ export class SignUpForm extends Component {
       password2: null,
     };
   }
-  
+
   submit() {
     if (this.state.password === this.state.password2) {
       fetch(`https://Back.LeftistMediaGroup.org/register/submit/`, {
@@ -58,7 +58,6 @@ export class SignUpForm extends Component {
                       className="form-control"
                       id="InputEmail"
                       placeholder="Email"
-                      onChange={this.handleEmailChange.bind(this)}
                     />
                   </Form.Group>
 
