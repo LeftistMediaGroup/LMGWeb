@@ -11,23 +11,6 @@ export class SignUpForm extends Component {
       password: null,
       password2: null,
     };
-  }
-
-  handleEmailChange(event) {
-    let email = event.target.value;
-
-    fetch(`https://Back.LeftistMediaGroup.org/register/email_update/`, {
-      method: "POST",
-      mode: "cors",
-      headers: {
-        Accept: "application/json, text/plain, */*",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        email: email,
-      })
-    });
-  }
 
   submit() {
     if (this.state.password === this.state.password2) {
