@@ -15,7 +15,7 @@ export class SignUpForm extends Component {
 
   submit() {
     if (this.state.password === this.state.password2) {
-      fetch(`https://Back.LeftistMediaGroup.org/register/submit`, {
+      fetch(`https://Back.LeftistMediaGroup.org/register/submit/`, {
         method: "POST",
         mode: "cors",
         headers: {
