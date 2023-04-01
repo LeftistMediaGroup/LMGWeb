@@ -25,8 +25,7 @@ export class SignUpForm extends Component {
       },
       body: JSON.stringify({
         email: email,
-      }),
-      credentials: "include",
+      })
     });
   }
 
