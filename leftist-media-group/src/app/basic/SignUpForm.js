@@ -43,8 +43,7 @@ export class SignUpForm extends Component {
           email: this.state.email,
           username: this.state.username,
           password: this.state.password,
-        }),
-        credentials: "include",
+        })
       });
     } else {
       console.log("Passwords don't match, please try again.");
