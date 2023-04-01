@@ -50,7 +50,7 @@ export class SignUpForm extends Component {
                   Create an account to start Volunteering!{" "}
                 </p>
 
-                <form className="forms-sample" onSubmit={"this.submit; return false"}>
+                <form className="forms-sample" onSubmit="this.submit(); return false;">
                   <Form.Group>
                     <label htmlFor="InputEmail">Email</label>
                     <Form.Control
