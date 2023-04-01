@@ -52,7 +52,7 @@ export class SignUpForm extends Component {
                   Create an account to start Volunteering!{" "}
                 </p>
 
-                <form className="forms-sample" onSubmit={this.submit(e)}>
+                <form className="forms-sample" onSubmit={this.submit()}>
                   <Form.Group>
                     <label htmlFor="InputEmail">Email</label>
                     <Form.Control
