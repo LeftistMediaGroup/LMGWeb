@@ -34,27 +34,35 @@ export class SignUpForm extends Component {
   }
 
   usernameChange(username) {
-    this.setState({
-      "username":username
-    });
+    if (username !== this.state.username) {
+      this.setState({
+        "username":username
+      });
+    };
   };
 
   emailChange(email) {
-    this.setState({
-      "email":email
-    });
+    if (email !== this.state.email) {
+      this.setState({
+        "email":email
+      });
+    };
   };
 
   passwordChange(password) {
-    this.setState({
-      "password":password
-    });
+    if (password !== this.state.password) {
+      this.setState({
+        "password":password
+      });
+    };
   };
 
   password2Change(password2) {
-    this.setState({
-      "password2":password2
-    });
+    if (password2 !== this.state.password2) {
+      this.setState({
+        "password2":password2
+      });
+    };
   };
 
   render() {
