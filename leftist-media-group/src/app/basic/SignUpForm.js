@@ -33,6 +33,30 @@ export class SignUpForm extends Component {
     }
   }
 
+  usernameChange(username) {
+    this.setState({
+      "username":username
+    });
+  };
+
+  emailChange(email) {
+    this.setState({
+      "email":email
+    });
+  };
+
+  passwordChange(password) {
+    this.setState({
+      "password":password
+    });
+  };
+
+  password2Change(password2) {
+    this.setState({
+      "password2":password2
+    });
+  };
+
   render() {
     return (
       <div>
@@ -61,6 +85,7 @@ export class SignUpForm extends Component {
                       type="email"
                       id="InputEmail"
                       placeholder="Email"
+                      onChange={this.emailChange}
                     />
                   </Form.Group>
 
@@ -70,6 +95,7 @@ export class SignUpForm extends Component {
                       type="text"
                       id="InputUsername"
                       placeholder="Username"
+                      onChange={this.UsernameChange}
                     />
                   </Form.Group>
 
@@ -79,6 +105,7 @@ export class SignUpForm extends Component {
                       type="password"
                       id="InputPassword"
                       placeholder="Password"
+                      onChange={this.passwordChange}
                     />
                   </Form.Group>
 
@@ -91,6 +118,7 @@ export class SignUpForm extends Component {
                       className="form-control"
                       id="InputConfirmPassword"
                       placeholder="Password"
+                      onChange={this.password2Change}
                     />
                   </Form.Group>
 
