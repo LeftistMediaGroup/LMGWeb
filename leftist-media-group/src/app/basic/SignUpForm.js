@@ -85,7 +85,7 @@ export class SignUpForm extends Component {
                       type="email"
                       id="InputEmail"
                       placeholder="Email"
-                      onChange={this.emailChange}
+                      onChange={this.emailChange()}
                     />
                   </Form.Group>
 
@@ -95,7 +95,7 @@ export class SignUpForm extends Component {
                       type="text"
                       id="InputUsername"
                       placeholder="Username"
-                      onChange={this.UsernameChange}
+                      onChange={this.UsernameChange()}
                     />
                   </Form.Group>
 
@@ -105,7 +105,7 @@ export class SignUpForm extends Component {
                       type="password"
                       id="InputPassword"
                       placeholder="Password"
-                      onChange={this.passwordChange}
+                      onChange={this.passwordChange()}
                     />
                   </Form.Group>
 
@@ -118,7 +118,7 @@ export class SignUpForm extends Component {
                       className="form-control"
                       id="InputConfirmPassword"
                       placeholder="Password"
-                      onChange={this.password2Change}
+                      onChange={this.password2Change()}
                     />
                   </Form.Group>
 
