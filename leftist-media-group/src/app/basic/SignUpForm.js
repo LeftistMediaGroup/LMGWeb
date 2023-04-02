@@ -95,7 +95,7 @@ export class SignUpForm extends Component {
                       type="text"
                       id="InputUsername"
                       placeholder="Username"
-                      onChange={this.UsernameChange()}
+                      onChange={this.usernameChange()}
                     />
                   </Form.Group>
 
