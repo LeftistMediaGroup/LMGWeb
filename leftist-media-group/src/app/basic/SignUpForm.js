@@ -25,7 +25,7 @@ export class SignUpForm extends Component {
         body: JSON.stringify({
           email: this.state.email,
           username: this.state.username,
-          password: this.state.password,
+          password: this.state.password
         })
       });
     } else {
@@ -34,6 +34,8 @@ export class SignUpForm extends Component {
   }
 
   usernameChange(username) {
+    console.log(`Username: ${username}`);
+    
     if (username !== this.state.username) {
       this.setState({
         "username":username
