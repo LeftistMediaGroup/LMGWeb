@@ -70,7 +70,7 @@ export class SignUpForm extends Component {
   };
 
   password2Change(event) {
-    let event = event.target.value;
+    let password2 = event.target.value;
 
     if (password2 !== this.state.password2) {
       this.setState({
