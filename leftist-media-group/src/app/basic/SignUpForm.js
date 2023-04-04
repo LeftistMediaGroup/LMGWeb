@@ -6,10 +6,10 @@ export class SignUpForm extends Component {
     super(props);
 
     this.state = {
-      email: null,
-      username: null,
-      password: null,
-      password2: null,
+      "email": null,
+      "username": null,
+      "password": null,
+      "password2": null,
     };
   }
 
