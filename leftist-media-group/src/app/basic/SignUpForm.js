@@ -37,7 +37,9 @@ export class SignUpForm extends Component {
     }
   }
 
-  usernameChange(username) {
+  usernameChange(event) {
+    let username = event.target.value;
+
     console.log(`Username: ${username}`);
     
     if (username !== this.state.username) {
@@ -47,7 +49,9 @@ export class SignUpForm extends Component {
     };
   };
 
-  emailChange(email) {
+  emailChange(event) {
+    let email = event.target.value;
+
     if (email !== this.state.email) {
       this.setState({
         "email":email
@@ -55,7 +59,9 @@ export class SignUpForm extends Component {
     };
   };
 
-  passwordChange(password) {
+  passwordChange(event) {
+    let password = event.target.value;
+
     if (password !== this.state.password) {
       this.setState({
         "password":password
@@ -63,7 +69,9 @@ export class SignUpForm extends Component {
     };
   };
 
-  password2Change(password2) {
+  password2Change(event) {
+    let event = event.target.value;
+
     if (password2 !== this.state.password2) {
       this.setState({
         "password2":password2
