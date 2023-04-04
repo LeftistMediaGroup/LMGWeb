@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import { Form } from "react-bootstrap";
 
+import * as dotenv from 'dotenv
+dotenv.config()
+
 export class SignUpForm extends Component {
   constructor(props) {
     super(props);
@@ -23,7 +26,7 @@ export class SignUpForm extends Component {
 
       console.log(`Data: ${JSON.stringify(bodyOut)}`);
 
-      fetch(`https://Back.LeftistMediaGroup.org/register/submit/`, {
+      fetch(`https://${process.env.backend}/register/submit/`, {
         method: "POST",
         mode: "cors",
         headers: {
