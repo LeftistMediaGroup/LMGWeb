@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Form } from "react-bootstrap";
 
-import * as dotenv from 'dotenv
+import * as dotenv from 'dotenv';
 dotenv.config()
 
 export class SignUpForm extends Component {
