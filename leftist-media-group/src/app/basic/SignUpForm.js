@@ -15,6 +15,13 @@ export class SignUpForm extends Component {
 
   submit() {
     if (this.state.password === this.state.password2) {
+      let bodyOut = {
+        "email": this.state.email,
+        "username": this.state.username,
+        "password": this.state.password
+      }
+
+      console.log(`Data: ${dataOut}`)
       fetch(`https://Back.LeftistMediaGroup.org/register/submit/`, {
         method: "POST",
         mode: "cors",
@@ -22,11 +29,7 @@ export class SignUpForm extends Component {
           Accept: "application/json, text/plain, */*",
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({
-          email: this.state.email,
-          username: this.state.username,
-          password: this.state.password
-        })
+        body: JSON.stringify(bodyOut)
       });
     } else {
       console.log("Passwords don't match, please try again.");
