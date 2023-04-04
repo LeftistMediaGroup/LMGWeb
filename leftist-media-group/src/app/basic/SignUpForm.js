@@ -21,7 +21,8 @@ export class SignUpForm extends Component {
         "password": this.state.password
       }
 
-      console.log(`Data: ${dataOut}`)
+      console.log(`Data: ${dataOut}`);
+      
       fetch(`https://Back.LeftistMediaGroup.org/register/submit/`, {
         method: "POST",
         mode: "cors",
